@@ -1,0 +1,19 @@
+@keyframes FlyAnimation {
+    0%,
+    50% {
+     transform:translateY(0);
+     animation-timing-function:cubic-bezier(.2,.25,.55,1)
+    }
+    25% {
+     transform:translateY(-1px);
+     animation-timing-function:cubic-bezier(.45,0,.8,.75)
+    }
+    75% {
+     transform:translateY(1px);
+     animation-timing-function:cubic-bezier(.45,0,.8,.75)
+    }
+    to {
+     transform:translateY(0)
+    }
+   }
+   /* ============ */
